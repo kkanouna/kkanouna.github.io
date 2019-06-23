@@ -1,65 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>About Me | Haz</title>
-    <link rel="stylesheet" href="assets/css/reset.css">
-    <link rel="stylesheet" href="assets/css/style.css">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<title>About Me | Haz</title>
+	<link rel="stylesheet" href="assets/css/style.css">
 </head>
+
 <body>
-    
-    <!--<div class="head-container">
-        <div class="nav-container">
-            <header class="name-header">Hazael</header>
 
-            <nav>
-                <ul>
-                    <li><a href="index.html">About</a></li>
-                    <li><a href="portfolio.html">Portfolio</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-            </nav>
-        </div>
-    </div>-->
+	<!-- Nav Bar -->
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+		<a id="logo" class="navbar-brand" href="index.html">Haz</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+			aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+			<div class="navbar-nav">
+				<a class="nav-item nav-link" href="index.html">About</a>
+				<a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
+				<a class="nav-item nav-link" href="contact.html">Contact</a>
+			</div>
+		</div>
+	</nav>
 
-    <!--Header that goes all the way across the screen-->
-    <header>
-        <!--Wrap in div to control width-->
-        <div class="container"> 
+	<!-- Content Area -->
+	<main class="container">
+		<article class="row">
+			<div class="col-md-1"></div>
+			<section id="about-me" class="col-md-10">
+				<div class="row">
+					<h1 class="col-md-12">About Me</h1>
+				</div>
+					
+				<div class="row">
+					<div class="col-md-12">
+						<img class="bio-pic" src="assets/images/me.jpg" alt="Me">
 
-            <!--My Name as a Link-->
-            <a class="name-header" href="index.html">Haz</a>
-        
-            <!--Navigation Links-->
-            <nav>
-                <ul>
-                    <li><a id="first-link" href="index.html">About</a></li>
-                    <li><a href="portfolio.html">Portfolio</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-            </nav>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam pretium quam nec lacinia mattis. Aenean gravida sapien lectus, nec molestie quam feugiat eu. Sed sed laoreet mauris. Mauris nec ligula sollicitudin, facilisis tortor eu, rutrum mi. Phasellus quis convallis velit, a rhoncus leo. Praesent pellentesque efficitur aliquet. Curabitur dapibus aliquet ex.</p>
+						<!-- <br> -->
+						<p>Donec vel sapien justo. Aliquam imperdiet condimentum ante, vitae semper orci fringilla vitae. Quisque aliquet luctus tincidunt. Mauris fermentum tristique feugiat. Nunc nec diam neque. Phasellus convallis sed sem sed sagittis. Mauris facilisis vel neque ac lobortis. Praesent faucibus blandit tellus a accumsan. Sed quis est ut ligula sodales egestas. Nunc a ex eget purus blandit bibendum. Morbi tristique lorem vel nunc condimentum euismod. Vivamus ligula risus, consequat at eleifend ut, efficitur vitae tortor. Aenean suscipit, nulla et vestibulum blandit, orci libero porta velit, non gravida dui elit non tellus. Mauris congue tortor sit amet sollicitudin commodo. Suspendisse sit amet mi consectetur, viverra justo sit amet, hendrerit enim. Nullam in diam ut ex interdum molestie.</p>
+						<!-- <br> -->
+						<p>Donec vel sapien justo. Aliquam imperdiet condimentum ante, vitae semper orci fringilla vitae. Quisque aliquet luctus tincidunt. Mauris fermentum tristique feugiat. Nunc nec diam neque. Phasellus convallis sed sem sed sagittis. Mauris facilisis vel neque ac lobortis. Praesent faucibus blandit tellus a accumsan. Sed quis est ut ligula sodales egestas. Nunc a ex eget purus blandit bibendum. Morbi tristique lorem vel nunc condimentum euismod. Vivamus ligula risus, consequat at eleifend ut, efficitur vitae tortor. Aenean suscipit, nulla et vestibulum blandit, orci libero porta velit, non gravida dui elit non tellus. Mauris congue tortor sit amet sollicitudin commodo. Suspendisse sit amet mi consectetur, viverra justo sit amet, hendrerit enim. Nullam in diam ut ex interdum molestie.</p>
+					</div>
+				</div>
+			</section>
+			<div class="col-md-1"></div>
+		</article>
+	</main>
 
-        </div>
-    </header>
+	<!-- Footer -->
+	<footer class="page-footer font-small">
 
-    <section id="content" class="container">
-        <h1>About Me</h1>
+		<!-- Copyright -->
+		<div class="footer-copyright text-center py-3">
+			Copyright 2019
+		</div>
+		<!-- Copyright -->
+	  
+	</footer>
+	<!-- Footer -->
 
-        <img class="bio-pic" src="assets/images/me.jpg" alt="Me">
-
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam pretium quam nec lacinia mattis. Aenean gravida sapien lectus, nec molestie quam feugiat eu. Sed sed laoreet mauris. Mauris nec ligula sollicitudin, facilisis tortor eu, rutrum mi. Phasellus quis convallis velit, a rhoncus leo. Praesent pellentesque efficitur aliquet. Curabitur dapibus aliquet ex.</p>
-        <br>
-        <p>Donec vel sapien justo. Aliquam imperdiet condimentum ante, vitae semper orci fringilla vitae. Quisque aliquet luctus tincidunt. Mauris fermentum tristique feugiat. Nunc nec diam neque. Phasellus convallis sed sem sed sagittis. Mauris facilisis vel neque ac lobortis. Praesent faucibus blandit tellus a accumsan. Sed quis est ut ligula sodales egestas. Nunc a ex eget purus blandit bibendum. Morbi tristique lorem vel nunc condimentum euismod. Vivamus ligula risus, consequat at eleifend ut, efficitur vitae tortor. Aenean suscipit, nulla et vestibulum blandit, orci libero porta velit, non gravida dui elit non tellus. Mauris congue tortor sit amet sollicitudin commodo. Suspendisse sit amet mi consectetur, viverra justo sit amet, hendrerit enim. Nullam in diam ut ex interdum molestie.</p>
-        <br>
-        <p>Donec vel sapien justo. Aliquam imperdiet condimentum ante, vitae semper orci fringilla vitae. Quisque aliquet luctus tincidunt. Mauris fermentum tristique feugiat. Nunc nec diam neque. Phasellus convallis sed sem sed sagittis. Mauris facilisis vel neque ac lobortis. Praesent faucibus blandit tellus a accumsan. Sed quis est ut ligula sodales egestas. Nunc a ex eget purus blandit bibendum. Morbi tristique lorem vel nunc condimentum euismod. Vivamus ligula risus, consequat at eleifend ut, efficitur vitae tortor. Aenean suscipit, nulla et vestibulum blandit, orci libero porta velit, non gravida dui elit non tellus. Mauris congue tortor sit amet sollicitudin commodo. Suspendisse sit amet mi consectetur, viverra justo sit amet, hendrerit enim. Nullam in diam ut ex interdum molestie.</p>
-    </section>
-
-    <!--Just pushes content away from footer-->
-    <div class="push"></div>
-
-    <footer>Copyright 2019</footer>
-
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+		integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+		crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+		integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+		crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+		integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+		crossorigin="anonymous"></script>
 </body>
+
 </html>
