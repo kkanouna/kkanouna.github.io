@@ -1,0 +1,244 @@
+/*border-box tells the browser to account for any border and padding in the values you specify for an element's width and height. If you set an element's width to 100 pixels, that 100 pixels will include any border or padding you added, and the content box will shrink to absorb that extra width. This typically makes it much easier to size elements.*/
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+    background-image: url(../images/background.png);
+    min-height: 400px;
+    margin-bottom: 50px;
+    clear: both;
+}
+
+header {
+    width: 100%;
+    background: #ffffff;
+    overflow: auto;
+    margin-bottom: 20px;
+    border-bottom: #cccccc solid 1px;
+    height: 73px;
+}
+
+.name-header {
+    background-color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+    color: #ffffff;
+    float: left;
+    font-size: 42px;
+    padding: 15px;
+    font-weight: 600;
+}
+
+nav {
+    float: right;
+}
+
+ul {
+    margin-top: 20px;
+}
+
+li {
+    float: left;
+    border-right: 1px solid #cccccc;
+}
+
+li:last-child {
+    border-right: none;
+}
+
+li a {
+    display: block;
+    padding: 8px;
+    text-decoration: none;
+    color: #777777;
+}
+
+h1 {
+    color: #4aaaa5;
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600;
+    border-bottom: #cccccc solid 3px;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+
+.bio-pic {
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin-right: 15px;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    clear: both;
+}
+
+footer {
+    width: 100%;
+    background-color: #666666;
+    height: 58px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    vertical-align: middle;
+    line-height: 50px;
+    border-top: 8px solid #4aaaa5;
+    
+}
+
+section {
+    background-color: #ffffff;
+    border: #dddddd solid 1px;
+    padding: 25px;
+    line-height: 1.5;
+}
+
+.push {
+    height: 50px;
+}
+
+input[type="text"] {
+    width: 100%;
+    line-height: 1.5;
+    padding: 6px 10px;
+    margin: 8px 0;
+    color: #777777;
+    text-decoration: none;
+}
+
+textarea {
+    width: 100%;
+    height: 100px;
+    line-height: 1.5;
+    padding: 6px 10px;
+    margin: 8px 0;
+    color: #777777;
+    resize: vertical;
+}
+
+#contact-button {
+    background-color: #4aaaa5;
+    padding: 16px 32px;
+    border: none;
+    margin-top: 10px;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+/* Container holding the image and the text */
+.project-container {
+    position: relative;
+    max-width: 200px;
+    max-height: 200px;
+    margin: 20px;
+    float: left;
+  }
+
+  /* Needed to have two per row in projects*/
+.project-container:nth-child(even){
+    margin-right: 150px;
+}
+  
+  /* Bottom right text */
+  .text-block {
+    position: absolute;
+    bottom: 20px;
+    left: 0px;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    padding: 5px 20px;
+    width: 200px;
+    text-align: center;
+  }
+ 
+  #projects {
+      overflow: auto;
+  }
+
+  img {
+      width: 100%;
+      height: auto;
+  }
+
+  @media screen and (max-width: 980px) {
+
+    .container {
+        margin: 0 30px 0 30px;
+    }
+
+    #projects,
+    #content {
+        max-width: 768px;
+        margin: 0 250px 0 30px;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+      .container,
+      #projects,
+      #content {
+          margin: 0 30px 0 30px;
+      }
+  }
+
+  @media screen and (max-width: 640px) {
+      .name-header {
+          width: 100%;
+          float: left;
+          margin: 0;
+          text-align: center;
+      }
+
+      nav {
+          margin-bottom: 10px;
+          width: 100%;
+          display: flex;
+          justify-content: center;
+      }
+
+      ul {
+          /* width: 100%; */
+          margin-top: 10px;
+          /* margin-left: 30%; */
+          /* margin-right: 30%; */
+      }
+
+      .container {
+          margin: 0;
+          overflow: auto;
+          clear: both;
+      }
+
+      header {
+          height: auto;
+      }
+
+      .project-container:nth-child(even){
+        margin-right: 0px;
+    }
+
+    /* Bottom right text */
+  .text-block {
+    position: absolute;
+    bottom: 20px;
+    left: 0px;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    padding: 5px 20px;
+    width: 150px;
+    text-align: center;
+  }
+
+  .project-pic {
+      width: 150px;
+      height: 150px;
+  }
+  }
