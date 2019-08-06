@@ -61,3 +61,9 @@ footer {
 .project-card {
     padding-bottom: 15px;
 }
+
+.btn {
+    background-color: #4aaaa5;
+    opacity: 0.777;
+    border: white;
+}
