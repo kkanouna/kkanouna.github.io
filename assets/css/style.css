@@ -1,85 +1,85 @@
 * {
-    box-sizing: border-box;
-  }
+  box-sizing: border-box;
+}
 
 body {
-    background-image: url(../images/background.png);
-    color: #777777;
-    font-family: Arial, Helvetica, sans-serif;
+  background-image: url(../images/background.png);
+  color: #777777;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .navbar {
-    padding-top: 0;
-    padding-bottom: 0;
+  padding-top: 0;
+  padding-bottom: 0;
 }
 
 .bg-light {
-    background-color: #ffffff!important;
+  background-color: #ffffff !important;
 }
 
 #logo {
-    background-color: #4aaaa5;
-    color: #ffffff;
-    margin-left: -16px;
-    /* font-size: 24px; */
-    font-weight: 600;
-    padding: 15px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color: #4aaaa5;
+  color: #ffffff;
+  margin-left: -16px;
+  /* font-size: 24px; */
+  font-weight: 600;
+  padding: 15px;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 .bio-pic {
-    width: 252px;
-    height: 306.333px;
-    float: left;
-    margin-right: 16px;
+  width: 200px;
+  height: 200px;
+  float: left;
+  margin-right: 16px;
 }
 
 #about-me,
 #contact-me,
 #my-portfolio {
-    padding: 20px;
-    margin-top: 45px;
-    margin-bottom: 75px;
-    background-color: #ffffff;
+  padding: 20px;
+  margin-top: 45px;
+  margin-bottom: 75px;
+  background-color: #ffffff;
 }
 
 #about-me h1 {
-    border-bottom: #cccccc solid 3px;
+  border-bottom: #cccccc solid 3px;
 }
 
 footer {
-    background-color: #666666;
-    border-top: 8px solid #4aaaa5;
-    color: #ffffff;
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
+  background-color: #666666;
+  border-top: 8px solid #4aaaa5;
+  color: #ffffff;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
 }
 
 .footer-link,
 .footer-link:visited,
 .footer-link:active {
-    color: #ffffff;
-    text-decoration: none;
+  color: #ffffff;
+  text-decoration: none;
 }
 
 .footer-link:hover {
-    color: #cccccc;
-    text-decoration: none;
+  color: #cccccc;
+  text-decoration: none;
 }
 
 #submit-btn {
-    background-color: #4aaaa5!important;
-    border-color: #4aaaa5!important;
+  background-color: #4aaaa5 !important;
+  border-color: #4aaaa5 !important;
 }
 
 .project-card {
-    padding-bottom: 15px;
+  padding-bottom: 15px;
 }
 
 .btn {
-    background-color: #4aaaa5;
-    opacity: 0.777;
-    border: white;
+  background-color: #4aaaa5;
+  opacity: 0.777;
+  border: white;
 }
