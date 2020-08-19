@@ -1,7 +1,7 @@
 * {
     box-sizing: border-box;
   }
-  
+
 body {
     background-image: url(../images/background.png);
     color: #777777;
@@ -20,6 +20,7 @@ body {
 #logo {
     background-color: #4aaaa5;
     color: #ffffff;
+    margin-left: -16px;
     /* font-size: 24px; */
     font-weight: 600;
     padding: 15px;
@@ -27,8 +28,8 @@ body {
 }
 
 .bio-pic {
-    width: 200px;
-    height: 200px;
+    width: 252px;
+    height: 306.333px;
     float: left;
     margin-right: 16px;
 }
